@@ -2,8 +2,8 @@ Title: WhereShouldIStudy
 Problem: Not knowing the best places to study on campus
 
 Primary stakeholder: Any student or person who is looking for a place to study on campus. Initially will just include the UW Madison campus, but could be expanded upon in the future to include any campus.
-Graphical User interface: There would be two main GUI's, one to add, remove, and update the data in the database, and one that would allow users to retrieve that data through searches.
-Data Structure: The data structure that would be serve our purposes would be a HashTable. We would hash the address as the key, and the value could be data about the location, including open hours, best time to study, etc. Value could be a custom data structure that holds extra information in a more organized way.
+Graphical User interface: There would be two main GUI's, one to add, remove, and update the data in the database, and one that would allow users to retrieve that data through searches. 
+Data Structure: The data structure that would be serve our purposes would be a HashTable. We would hash the address as the key, and the value could be data about the location, including open hours, best time to study, etc. Value could be a custom data structure that holds extra information in a more organized way. The value would have to have setters and getters in order to retrieve and update the data in it. For duplicates, the HashTable would return that the address has already been added, but then prompt the user if they would like to add notes on the place.
 
-Input Data File Format: Sample data file - See sample.csv for some example data. The first column would be the key, and the rest would be the values.
+Input Data File Format: Sample data file - See sample.csv for some example data. The first column would be the key, and the rest would be the values. This would have to be organized in a specific way so that the file can be parsed by the program. If the columns are not in order, the program would have to throw an error saying that it is not in the format that is required.
 Output Example: Provide an example of the output possible from the program.  This example may be fabricated in any word or image editor program of your choice.
